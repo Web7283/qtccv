@@ -22,7 +22,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ]]
 
 -- I'm so happy I don't have to write or understand this code, thanks! - ax.
-
+os.queueEvent("fakeevent")
+os.pullEvent()
 
 local wave = { }
 wave.version = "0.1.5"
